@@ -1,0 +1,58 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.timetable-desc textarea.required {
+    border-color: red;
+}
+.wc-actions .pl {
+    padding-left: 0;
+}
+.wc-actions .pr {
+    padding-right: 0;
+}
+ .tiva-timetable .timetable-month .timetable-item .timetable-title {
+ 	font-size: 13px;
+ 	line-height: 20px;
+ 	text-decoration: none;
+ 	outline: none;
+ 	display: block;
+
+ 	box-shadow: 1px 1px 1px 1px #e2e2e2;
+ 	border-radius: 5px;
+ }
+ .my_img
+ { 
+ 	width: 50px;
+ 	height: 50px;
+ 	float: left;
+ 	padding: 5px;
+ }
+
+ .timetable-popup .popup-body {
+ 	padding: 50px 20px;
+ 	color: #535353;
+ 	text-align: center;
+ }
+
+
+ .btn-success {
+ 	color: #fff;
+ 	background-color: #5cb85c;
+ 	border-color: #4cae4c;
+ 	width: 75%;
+ }
+
+ .btn-warning {
+
+ 	width: 75%;
+ }
+ button.wc-mfp-arrow.mfp-arrow[disabled] {
+    cursor: not-allowed;
+}
+.tiva-timetable .timetable-month .timetable-item .timetable-title{ padding: 10px 0px; }
+/*.tiva-timetable .timetable-month .timetable-item .timetable-title .timetable-image, .tiva-timetable .timetable-month .timetable-item .timetable-title span.timetable-time, .tiva-timetable .timetable-month .timetable-item .timetable-title span.timetable-name {
+    display: inline-block;
+    vertical-align: top;
+}*/

@@ -1,0 +1,24 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+ table.wc-reasons tr th, table.wc-reasons tr td {
+ 	border: 1px solid #c1c1c1;
+ 	padding: 5px 10px;
+ }
+
+ table.wc-reasons {
+ 	width: 100%;
+ 	border: 1px solid #c1c1c1;
+ }
+ div#wpbody h4, div#wpbody input {
+ 	display: inline-block;
+ 	vertical-align: middle;
+ }
+  div#wpbody select#wc_sel_user {
+ 	margin: 10px;
+ }
+ form#createuser input.hidden {
+    display: none;
+}
